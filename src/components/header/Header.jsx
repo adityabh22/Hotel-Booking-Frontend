@@ -56,6 +56,7 @@ const Header = ({ type }) => {
   function gotolink(){
     return navigate("/login");
   }
+  
   return (
     <div className="header">
       <div
@@ -85,7 +86,7 @@ const Header = ({ type }) => {
             <p className="headerDesc">
             Explore Your choices
             </p>
-            {!user && <button className="headerBtn" onClick={gotolink}>Sign in / Register</button>}
+            {!user && <button className="headerBtn" onClick={gotolink}>Sign in</button>}
             <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
