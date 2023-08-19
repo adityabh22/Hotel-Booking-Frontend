@@ -37,7 +37,7 @@ const Featured = () => {
           </div>
           <div className="featuredItem">
             <img
-              src="https://images.pexels.com/photos/16162420/pexels-photo-16162420/free-photo-of-cathedral-dome-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/904272/pexels-photo-904272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
               className="featuredImg"
             />
